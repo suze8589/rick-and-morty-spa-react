@@ -18,3 +18,9 @@ The app is fully responsive, thanks to **Tailwind CSS**, and uses React hooks (`
 - **Tailwind CSS**: Utility-first CSS framework for custom styling.
 - **Rick and Morty API**: A free API that provides data about characters, episodes, and locations from the Rick and Morty show.
 - **React Router**: For handling navigation in the SPA (it's not used in this project, but it's a common choice for React apps).
+
+- ## Application Screenshot
+
+Here is how the application looks:
+
+![Rick and Morty SPA Screenshot](screenshots/main-page.png)
