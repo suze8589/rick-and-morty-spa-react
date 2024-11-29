@@ -50,9 +50,18 @@ const CharacterCard = ({ character }) => (
 );
 
 const CharacterGrid = ({ characters }) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+  <div className="character-grid">
     {characters.map((character) => (
-      <CharacterCard key={character.id} character={character} />
+      <div
+        key={character.id}
+        className="character-card"
+        onClick={() => alert(`You clicked on ${character.name}`)}
+      >
+        <img src={character.image} alt={character.name} />
+        <div className="card-header">
+          <h2>{character.name}</h2>
+        </div>
+      </div>
     ))}
   </div>
 );
